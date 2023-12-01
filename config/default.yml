@@ -1,0 +1,12 @@
+require:
+  - rubocop-performance
+  - rubocop-rake
+
+AllCops:
+  NewCops: enable
+
+Bundler/GemVersion:
+  Enabled: true
+
+Style/StringLiterals:
+  EnforcedStyle: double_quotes
