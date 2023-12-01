@@ -3,6 +3,7 @@ require:
   - rubocop-rake
 
 AllCops:
+  DisplayStyleGuide: true
   NewCops: enable
 
 Bundler/GemVersion:
