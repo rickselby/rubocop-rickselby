@@ -1,33 +1,22 @@
-# Rubocop::Rickselby
+# My rubocop setup
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/rubocop/rickselby`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
-
-## Installation
-
-Install the gem and add to the application's Gemfile by executing:
-
-    $ bundle add rubocop-rickselby
-
-If bundler is not being used to manage dependencies, install the gem by executing:
-
-    $ gem install rubocop-rickselby
+Config in `./config`
 
 ## Usage
 
-TODO: Write usage instructions here
+Add `rubocop-rickselby` to your Gemfile:
 
-## Development
+  ```ruby
+  gem "rubocop-rickselby", require: false
+  ```
 
-After checking out the repo, run `bin/setup` to install dependencies. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
+Inherit the configuration in your `.rubocop.yml`:
 
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and the created tag, and push the `.gem` file to [rubygems.org](https://rubygems.org).
-
-## Contributing
-
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/rubocop-rickselby.
-
-## License
-
-The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+  ```yaml
+  # .rubocop.yml
+  inherit_gem:
+    rubocop-rickselby:
+    - config/default.yml # generic Ruby rules and cops
+    - config/rails.yml # Rails-specific rules and cops
+    - config/rspec.yml # RSpec-specific rules and cops
+  ```
