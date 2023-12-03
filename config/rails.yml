@@ -1,3 +1,9 @@
 require:
   - rubocop-rails
   - rubocop-rails-accessibility
+
+Style/Documentation:
+  Exclude:
+    - app/controllers/**/*
+    - app/models/**/*
+    - test/**/*

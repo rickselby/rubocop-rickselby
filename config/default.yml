@@ -6,8 +6,14 @@ AllCops:
   DisplayStyleGuide: true
   NewCops: enable
 
+# Require versions for every gem
 Bundler/GemVersion:
   Enabled: true
 
+# Allow short parameter names (e.g. coords(x, y))
+Naming/MethodParameterName:
+  MinNameLength: 1
+
+# Double quotes everywhere so they don't have to change if interpolation is added to a string
 Style/StringLiterals:
   EnforcedStyle: double_quotes
