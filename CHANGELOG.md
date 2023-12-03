@@ -1,5 +1,7 @@
 ## [Unreleased]
 
+- Separate rspec and capybara
+
 ## [0.3.0] - 2023-12-03
 
 - Don't require class documentation for rails migrations
