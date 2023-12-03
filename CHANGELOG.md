@@ -1,5 +1,7 @@
 ## [Unreleased]
 
+## [0.3.0] - 2023-12-03
+
 - Don't require class documentation for rails migrations
 
 ## [0.2.0] - 2023-12-03
