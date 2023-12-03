@@ -6,4 +6,5 @@ Style/Documentation:
   Exclude:
     - app/controllers/**/*
     - app/models/**/*
+    - db/migrate/**/*
     - test/**/*

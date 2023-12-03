@@ -1,5 +1,7 @@
 ## [Unreleased]
 
+- Don't require class documentation for rails migrations
+
 ## [0.2.0] - 2023-12-03
 
 - Display style guide for all cops
