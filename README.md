@@ -2,7 +2,7 @@
 
 Config in `./config`
 
-## Usage
+## Installation
 
 Add `rubocop-rickselby` to your Gemfile:
 
@@ -23,7 +23,7 @@ group :development, :test do
 end
 ```
 
-Inherit the configuration in your `.rubocop.yml`:
+Inherit the desired configuration in your `.rubocop.yml`:
 
 ```yaml
 # .rubocop.yml
@@ -34,3 +34,9 @@ inherit_gem:
     - config/rspec.yml # RSpec-specific rules and cops
     - config/capybara.yml # capybara-specific rules and cops
 ```
+
+## Contributing
+Bug reports and pull requests are welcome on GitHub at https://github.com/rickselby/rubocop-rickselby.
+
+## License
+The gem is available as open source under the terms of the MIT License.
