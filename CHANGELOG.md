@@ -1,5 +1,7 @@
 ## [Unreleased]
 
+## [0.2.0] - 2023-12-03
+
 - Display style guide for all cops
 - Allow short parameter names
 - Don't require class documentation for rails controller and models 

@@ -7,15 +7,18 @@ Config in `./config`
 Add `rubocop-rickselby` to your Gemfile:
 
 ```ruby
-gem "rubocop-rickselby", "~> 0.1", require: false
 
-# If you are using rails:
-gem "rubocop-rails", require: false
-gem "rubocop-rails-accessibility", require: false
+group :development, :test do
+  gem "rubocop-rickselby", "~> 0.1", require: false
 
-# If you are using rspec:
-gem "rubocop-capybara", require: false
-gem "rubocop-rspec", require: false
+  # If you are using rails:
+  gem "rubocop-rails", require: false
+  gem "rubocop-rails-accessibility", require: false
+
+  # If you are using rspec:
+  gem "rubocop-capybara", require: false
+  gem "rubocop-rspec", require: false
+end
 ```
 
 Inherit the configuration in your `.rubocop.yml`:
