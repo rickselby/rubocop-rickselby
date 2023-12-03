@@ -1,2 +1,5 @@
 inherit_from:
   - ./config/default.yml
+
+AllCops:
+  TargetRubyVersion: 3.0

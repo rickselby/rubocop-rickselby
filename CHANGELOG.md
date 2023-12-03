@@ -1,5 +1,7 @@
 ## [Unreleased]
 
+- Support all supported rubies (currently 3.0+)
+
 ## [0.4.0] - 2023-12-03
 
 - Separate rspec and capybara
