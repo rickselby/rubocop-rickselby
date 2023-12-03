@@ -1,5 +1,7 @@
 ## [Unreleased]
 
+## [0.5.0] - 2023-12-03
+
 - Support all supported rubies (currently 3.0+)
 
 ## [0.4.0] - 2023-12-03
