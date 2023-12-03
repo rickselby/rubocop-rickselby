@@ -1,5 +1,7 @@
 ## [Unreleased]
 
+## [0.4.0] - 2023-12-03
+
 - Separate rspec and capybara
 
 ## [0.3.0] - 2023-12-03
