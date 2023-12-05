@@ -2,6 +2,22 @@ require:
   - rubocop-rails
   - rubocop-rails-accessibility
 
+# casecmp does not work with all of Unicode, so this is not a good optimization for internationalized apps
+Performance/Casecmp:
+  Enabled: false
+
+# This cop is unsafe because it has known compatibility issues with ActiveRecord and other frameworks.
+Performance/Count:
+  Enabled: false
+
+# This cop is unsafe because it has known compatibility issues with ActiveRecord and other frameworks.
+Performance/Detect:
+  Enabled: false
+
+# Sum is different between enumerables and ActiveRecord, let's not cause confusion...
+Performance/Sum:
+  Enabled: false
+
 Style/Documentation:
   Exclude:
     - app/controllers/**/*
