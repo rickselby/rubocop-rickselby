@@ -1,5 +1,7 @@
 ## [Unreleased]
 
+## [0.6.0] - 2023-12-05
+
 - Disable certain performance cops when using Rails
 
 ## [0.5.0] - 2023-12-03
