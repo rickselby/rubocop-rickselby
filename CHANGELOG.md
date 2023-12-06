@@ -1,5 +1,9 @@
 ## [Unreleased]
 
+## [0.7.0] - 2023-12-06
+
+- Disable certain cops for rails config directory
+
 ## [0.6.0] - 2023-12-05
 
 - Disable certain performance cops when using Rails
