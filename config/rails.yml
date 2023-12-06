@@ -2,6 +2,11 @@ require:
   - rubocop-rails
   - rubocop-rails-accessibility
 
+# Config blocks can be very long
+Metrics/BlockLength:
+  Exclude:
+    - 'config/**/*'
+
 # casecmp does not work with all of Unicode, so this is not a good optimization for internationalized apps
 Performance/Casecmp:
   Enabled: false
@@ -22,5 +27,6 @@ Style/Documentation:
   Exclude:
     - app/controllers/**/*
     - app/models/**/*
+    - config/**/*
     - db/migrate/**/*
     - test/**/*
