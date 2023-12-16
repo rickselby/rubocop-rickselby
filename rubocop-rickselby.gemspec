@@ -22,7 +22,7 @@ Gem::Specification.new do |spec|
   spec.files = Dir["README.md", "STYLEGUIDE.md", "LICENSE.text", "config/*.yml", "lib/**/*.rb"]
 
   spec.add_dependency "rubocop", "~> 1.58.0"
-  spec.add_dependency "rubocop-performance", "~> 1.19.0"
+  spec.add_dependency "rubocop-performance", ">= 1.19", "< 1.21"
   spec.add_dependency "rubocop-rake", "~> 0.6.0"
 
   spec.metadata["rubygems_mfa_required"] = "true"
