@@ -1,5 +1,7 @@
 ## [Unreleased]
 
+## [0.8.0] - 2023-12-18
+
 - Bump rubocop to 1.59
 - Bump rubocop-performance to 1.20
 
