@@ -1,5 +1,8 @@
 ## [Unreleased]
 
+- Bump rubocop to 1.59
+- Bump rubocop-performance to 1.20
+
 ## [0.7.0] - 2023-12-06
 
 - Disable certain cops for rails config directory
