@@ -1,6 +1,7 @@
 ## [Unreleased]
 
 - Update rules for block alignment
+- Enforce gem versioning in gemspec files
 
 ## [0.8.0] - 2023-12-18
 

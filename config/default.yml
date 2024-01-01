@@ -10,6 +10,9 @@ AllCops:
 Bundler/GemVersion:
   Enabled: true
 
+Gemspec/DependencyVersion:
+  Enabled: true
+
 Layout/BlockAlignment:
   EnforcedStyleAlignWith: start_of_block
 
