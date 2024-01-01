@@ -10,6 +10,9 @@ AllCops:
 Bundler/GemVersion:
   Enabled: true
 
+Layout/BlockAlignment:
+  EnforcedStyleAlignWith: start_of_block
+
 # Allow short parameter names (e.g. coords(x, y))
 Naming/MethodParameterName:
   MinNameLength: 1
