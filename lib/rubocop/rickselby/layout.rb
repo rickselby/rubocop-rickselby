@@ -4,6 +4,7 @@ module Rubocop
   module RickSelby
     # Sample code to see how rubocop styles the samples
     module Layout
+      # rubocop:disable Layout/RedundantLineBreak
       def block_alignment
         foo.bar.baz do
           sth
@@ -14,6 +15,7 @@ module Rubocop
              sth
            end
       end
+      # rubocop:enable Layout/RedundantLineBreak
 
       def first_array_element_line_break
         [
@@ -29,6 +31,7 @@ module Rubocop
         }
       end
 
+      # rubocop:disable Layout/RedundantLineBreak
       def hash_alignment
         a = {
           a:  1,
@@ -42,6 +45,7 @@ module Rubocop
 
         a + b
       end
+      # rubocop:enable Layout/RedundantLineBreak
 
       def multiline_array_line_breaks
         [
@@ -69,6 +73,11 @@ module Rubocop
           b: 2,
           c: 3
         }
+      end
+
+      def redundant_line_break
+        a = { a: 1, bc: 2 }
+        foo.bar.baz { sth a }
       end
     end
   end
