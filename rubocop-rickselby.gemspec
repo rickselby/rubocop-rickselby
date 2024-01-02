@@ -19,7 +19,7 @@ Gem::Specification.new do |spec|
 
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.
-  spec.files = Dir["README.md", "STYLEGUIDE.md", "LICENSE.text", "config/*.yml", "lib/**/*.rb"]
+  spec.files = Dir["README.md", "STYLEGUIDE.md", "LICENSE.text", "config/*.yml", "lib/rubocop/rickselby/version.rb"]
 
   spec.add_dependency "rubocop", "~> 1.59.0"
   spec.add_dependency "rubocop-performance", "~> 1.20.0"

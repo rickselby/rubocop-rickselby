@@ -16,6 +16,26 @@ Gemspec/DependencyVersion:
 Layout/BlockAlignment:
   EnforcedStyleAlignWith: start_of_block
 
+Layout/FirstArrayElementLineBreak:
+  Enabled: true
+
+Layout/FirstHashElementLineBreak:
+  Enabled: true
+
+Layout/HashAlignment:
+  EnforcedColonStyle: table
+  EnforcedHashRocketStyle: table
+
+Layout/MultilineArrayLineBreaks:
+  Enabled: true
+
+Layout/MultilineAssignmentLayout:
+  Enabled: true
+  EnforcedStyle: same_line
+
+Layout/MultilineHashKeyLineBreaks:
+  Enabled: true
+
 # Allow short parameter names (e.g. coords(x, y))
 Naming/MethodParameterName:
   MinNameLength: 1
