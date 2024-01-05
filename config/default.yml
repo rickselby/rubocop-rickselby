@@ -62,6 +62,10 @@ Naming/MethodParameterName:
     - y
     - z
 
+Style/ClassMethodsDefinitions:
+  Enabled: true
+  EnforcedStyle: self_class
+
 Style/CollectionMethods:
   Enabled: true
 

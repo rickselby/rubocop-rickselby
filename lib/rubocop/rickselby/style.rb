@@ -4,6 +4,15 @@ module Rubocop
   module RickSelby
     # Sample code to see how rubocop styles the samples
     module Style
+      # Sample class with class methods
+      class ClassMethodsDefinitions
+        class << self
+          def class_method
+            foo
+          end
+        end
+      end
+
       def collection_methods
         hash.map { |h| h + 1 }
         hash.find :foo
