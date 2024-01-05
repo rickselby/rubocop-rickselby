@@ -62,6 +62,9 @@ Naming/MethodParameterName:
     - y
     - z
 
+Style/CollectionMethods:
+  Enabled: true
+
 Style/DateTime:
   Enabled: true
 

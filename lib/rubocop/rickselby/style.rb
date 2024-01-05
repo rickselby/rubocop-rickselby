@@ -4,6 +4,11 @@ module Rubocop
   module RickSelby
     # Sample code to see how rubocop styles the samples
     module Style
+      def collection_methods
+        hash.map { |h| h + 1 }
+        hash.find :foo
+      end
+
       def date_time
         Time.now
       end
