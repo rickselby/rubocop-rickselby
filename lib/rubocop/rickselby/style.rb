@@ -39,16 +39,30 @@ module Rubocop
         1.fdiv 2
       end
 
+      # rubocop:disable Layout/RedundantLineBreak
       def method_call_with_args_parentheses
         a foo
         b(foo).a(foo)
         Array(1)
         a(foo) || b(foo)
-        a_very_long_method_name_with_equally_long_params_so_it_doesnt_fit_on_a_single_line(
-          first_very_long_parameter_name_that_needs_to_be_long,
-          second_very_long_parameter_name_that_needs_to_be_long
+        a(
+          b,
+          c
         )
       end
+      # rubocop:enable Layout/RedundantLineBreak
+
+      # rubocop:disable Layout/RedundantLineBreak
+      def trailing_comma_in_hash_literal
+        a = { a: 1, b: 2, c: 3 }
+        b = {
+          a: 1,
+          b: 2,
+        }
+
+        a + b
+      end
+      # rubocop:enable Layout/RedundantLineBreak
 
       def unless_logical_operators
         return unless a || b

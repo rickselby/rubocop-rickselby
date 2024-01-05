@@ -27,7 +27,7 @@ module Rubocop
       def first_hash_element_line_break
         {
           a: 1,
-          b: 2
+          b: 2,
         }
       end
 
@@ -35,12 +35,12 @@ module Rubocop
       def hash_alignment
         a = {
           a:  1,
-          bc: 2
+          bc: 2,
         }
 
         b = {
           1  => 1,
-          23 => 2
+          23 => 2,
         }
 
         a + b
@@ -71,7 +71,7 @@ module Rubocop
         {
           a: 1,
           b: 2,
-          c: 3
+          c: 3,
         }
       end
 
