@@ -104,6 +104,9 @@ Style/OptionHash:
 Style/StringLiterals:
   EnforcedStyle: double_quotes
 
+Style/StringMethods:
+  Enabled: true
+
 Style/SymbolArray:
   MinSize: 1
 
