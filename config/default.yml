@@ -104,5 +104,8 @@ Style/OptionHash:
 Style/StringLiterals:
   EnforcedStyle: double_quotes
 
+Style/UnlessLogicalOperators:
+  Enabled: true
+
 Style/WordArray:
   MinSize: 1

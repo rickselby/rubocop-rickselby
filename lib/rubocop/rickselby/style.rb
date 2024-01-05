@@ -50,6 +50,12 @@ module Rubocop
         )
       end
 
+      def unless_logical_operators
+        return unless a || b
+
+        c
+      end
+
       def word_array
         %w[foo]
       end
