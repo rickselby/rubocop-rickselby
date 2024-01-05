@@ -104,6 +104,9 @@ Style/OptionHash:
 Style/StringLiterals:
   EnforcedStyle: double_quotes
 
+Style/TopLevelMethodDefinition:
+  Enabled: true
+
 Style/TrailingCommaInArguments:
   EnforcedStyleForMultiline: consistent_comma
 
