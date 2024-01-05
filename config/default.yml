@@ -100,6 +100,9 @@ Style/MethodCalledOnDoEndBlock:
 Style/OptionHash:
   Enabled: true
 
+Style/Send:
+  Enabled: true
+
 Style/StaticClass:
   Enabled: true
 
