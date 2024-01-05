@@ -100,6 +100,9 @@ Style/MethodCalledOnDoEndBlock:
 Style/OptionHash:
   Enabled: true
 
+Style/StaticClass:
+  Enabled: true
+
 # Double quotes everywhere so they don't have to change if interpolation is added to a string
 Style/StringLiterals:
   EnforcedStyle: double_quotes

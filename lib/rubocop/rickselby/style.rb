@@ -7,10 +7,10 @@ module Rubocop
       # Sample class with class methods
       class ClassMethodsDefinitions
         class << self
-          def class_method
-            foo
-          end
+          def class_method = foo
         end
+
+        def object_method = foo
       end
 
       def auto_resource_cleanup
