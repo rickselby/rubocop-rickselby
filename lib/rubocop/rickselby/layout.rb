@@ -20,7 +20,7 @@ module Rubocop
       def first_array_element_line_break
         [
           1,
-          2
+          2,
         ]
       end
 
@@ -54,7 +54,7 @@ module Rubocop
           3,
           4,
           5,
-          6
+          6,
         ]
       end
 

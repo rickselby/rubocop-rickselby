@@ -53,6 +53,18 @@ module Rubocop
       # rubocop:enable Layout/RedundantLineBreak
 
       # rubocop:disable Layout/RedundantLineBreak
+      def trailing_comma_in_array_literal
+        a = [1, 2, 3]
+        b = [
+          1,
+          2,
+        ]
+
+        a + b
+      end
+      # rubocop:enable Layout/RedundantLineBreak
+
+      # rubocop:disable Layout/RedundantLineBreak
       def trailing_comma_in_hash_literal
         a = { a: 1, b: 2, c: 3 }
         b = {
