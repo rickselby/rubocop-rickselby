@@ -13,6 +13,12 @@ module Rubocop
         end
       end
 
+      def auto_resource_cleanup
+        File.open "file" do |f|
+          f.write "sth"
+        end
+      end
+
       def case_like_if
         case foo
         when :bar then :baz

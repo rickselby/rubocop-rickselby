@@ -61,6 +61,10 @@ Naming/MethodParameterName:
     - x
     - y
     - z
+
+Style/AutoResourceCleanup:
+  Enabled: true
+
 Style/CaseLikeIf:
   MinBranchesCount: 2
 
