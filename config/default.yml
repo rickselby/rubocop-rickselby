@@ -40,9 +40,27 @@ Layout/RedundantLineBreak:
   Enabled: true
   InspectBlocks: true
 
-# Allow short parameter names (e.g. coords(x, y))
+# Allow coordinate parameter names (along with the rest of the defaults, which must be redefined here)
 Naming/MethodParameterName:
-  MinNameLength: 1
+  AllowedNames:
+    - as
+    - at
+    - by
+    - cc
+    - db
+    - id
+    - if
+    - in
+    - io
+    - ip
+    - of
+    - 'on'
+    - os
+    - pp
+    - to
+    - x
+    - y
+    - z
 
 # Double quotes everywhere so they don't have to change if interpolation is added to a string
 Style/StringLiterals:
