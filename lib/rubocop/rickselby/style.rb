@@ -4,6 +4,10 @@ module Rubocop
   module RickSelby
     # Sample code to see how rubocop styles the samples
     module Style
+      def date_time
+        Time.now
+      end
+
       def float_division
         1.fdiv 2
       end

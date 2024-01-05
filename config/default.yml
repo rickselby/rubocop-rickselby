@@ -62,6 +62,9 @@ Naming/MethodParameterName:
     - y
     - z
 
+Style/DateTime:
+  Enabled: true
+
 Style/FloatDivision:
   EnforcedStyle: fdiv
 
