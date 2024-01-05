@@ -110,6 +110,9 @@ Style/StringMethods:
 Style/SymbolArray:
   MinSize: 1
 
+Style/StringLiteralsInInterpolation:
+  EnforcedStyle: double_quotes
+
 Style/TernaryParentheses:
   EnforcedStyle: require_parentheses_when_complex
 

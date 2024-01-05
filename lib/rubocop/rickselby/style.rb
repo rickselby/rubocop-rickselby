@@ -52,6 +52,10 @@ module Rubocop
       end
       # rubocop:enable Layout/RedundantLineBreak
 
+      def string_literals_in_interpolation
+        "This #{foo ? "thing" : "whatsit"}"
+      end
+
       def symbol_array
         %i[foo]
       end
