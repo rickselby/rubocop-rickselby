@@ -52,6 +52,10 @@ module Rubocop
       end
       # rubocop:enable Layout/RedundantLineBreak
 
+      def ternary_parentheses
+        (a && b) ? c : d
+      end
+
       # rubocop:disable Layout/RedundantLineBreak
       def trailing_comma_in_arguments
         a = a 1, 2, 3
