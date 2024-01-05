@@ -62,6 +62,9 @@ Naming/MethodParameterName:
     - y
     - z
 
+Style/AsciiComments:
+  Enabled: true
+
 Style/AutoResourceCleanup:
   Enabled: true
 
