@@ -13,6 +13,13 @@ module Rubocop
         end
       end
 
+      def case_like_if
+        case foo
+        when :bar then :baz
+        when :foo then :faz
+        end
+      end
+
       def collection_methods
         hash.map { |h| h + 1 }
         hash.find :foo

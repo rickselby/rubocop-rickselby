@@ -61,6 +61,8 @@ Naming/MethodParameterName:
     - x
     - y
     - z
+Style/CaseLikeIf:
+  MinBranchesCount: 2
 
 Style/ClassMethodsDefinitions:
   Enabled: true
