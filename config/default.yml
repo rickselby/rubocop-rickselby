@@ -103,3 +103,6 @@ Style/OptionHash:
 # Double quotes everywhere so they don't have to change if interpolation is added to a string
 Style/StringLiterals:
   EnforcedStyle: double_quotes
+
+Style/WordArray:
+  MinSize: 1

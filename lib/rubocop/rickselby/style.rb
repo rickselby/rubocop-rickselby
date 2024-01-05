@@ -49,6 +49,10 @@ module Rubocop
           second_very_long_parameter_name_that_needs_to_be_long
         )
       end
+
+      def word_array
+        %w[foo]
+      end
     end
   end
 end
