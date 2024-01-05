@@ -52,6 +52,10 @@ module Rubocop
       end
       # rubocop:enable Layout/RedundantLineBreak
 
+      def symbol_array
+        %i[foo]
+      end
+
       def ternary_parentheses
         (a && b) ? c : d
       end

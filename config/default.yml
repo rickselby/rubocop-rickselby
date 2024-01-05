@@ -104,6 +104,9 @@ Style/OptionHash:
 Style/StringLiterals:
   EnforcedStyle: double_quotes
 
+Style/SymbolArray:
+  MinSize: 1
+
 Style/TernaryParentheses:
   EnforcedStyle: require_parentheses_when_complex
 
