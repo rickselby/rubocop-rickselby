@@ -1,7 +1,9 @@
 ## [Unreleased]
 
-- Update rules for block alignment
-- Enforce gem versioning in gemspec files
+## [0.9.0] - 2024-01-05
+
+- Enable and configure many cops
+  - (too many to list here, sorry) 
 
 ## [0.8.0] - 2023-12-18
 
