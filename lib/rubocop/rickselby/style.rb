@@ -3,7 +3,11 @@
 module Rubocop
   module RickSelby
     # Sample code to see how rubocop styles the samples
-    module Naming
+    module Style
+      def float_division
+        1.fdiv 2
+      end
+
       def method_call_with_args_parentheses
         a foo
         b(foo).a(foo)

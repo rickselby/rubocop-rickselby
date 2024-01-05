@@ -62,6 +62,12 @@ Naming/MethodParameterName:
     - y
     - z
 
+Style/FloatDivision:
+  EnforcedStyle: fdiv
+
+Style/IpAddresses:
+  Enabled: true
+
 Style/MethodCallWithArgsParentheses:
   Enabled: true
   AllowParenthesesInCamelCaseMethod: true
