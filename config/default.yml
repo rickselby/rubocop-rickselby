@@ -62,6 +62,19 @@ Naming/MethodParameterName:
     - y
     - z
 
+Style/MethodCallWithArgsParentheses:
+  Enabled: true
+  AllowParenthesesInCamelCaseMethod: true
+  AllowParenthesesInChaining: true
+  AllowParenthesesInMultilineCall: true
+  EnforcedStyle: omit_parentheses
+
+Style/MethodCalledOnDoEndBlock:
+  Enabled: true
+
+Style/OptionHash:
+  Enabled: true
+
 # Double quotes everywhere so they don't have to change if interpolation is added to a string
 Style/StringLiterals:
   EnforcedStyle: double_quotes
