@@ -47,8 +47,20 @@ module Rubocop
         a(foo) || b(foo)
         a(
           b,
-          c
+          c,
         )
+      end
+      # rubocop:enable Layout/RedundantLineBreak
+
+      # rubocop:disable Layout/RedundantLineBreak
+      def trailing_comma_in_arguments
+        a = a 1, 2, 3
+        b = b(
+          1,
+          2,
+        )
+
+        a + b
       end
       # rubocop:enable Layout/RedundantLineBreak
 
