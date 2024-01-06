@@ -1,5 +1,7 @@
 ## [Unreleased]
 
+## [0.11.0] - 2024-01-06
+
 - Don't check for unnecessary line breaks
 
 ## [0.10.0] - 2024-01-06
