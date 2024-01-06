@@ -1,5 +1,7 @@
 ## [Unreleased]
 
+- Don't check for unnecessary line breaks
+
 ## [0.10.0] - 2024-01-06
 
 - Require all gems so we can pin them to specific versions and keep the configuration up to date

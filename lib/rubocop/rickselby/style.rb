@@ -39,7 +39,6 @@ module Rubocop
         1.fdiv 2
       end
 
-      # rubocop:disable Layout/RedundantLineBreak
       def method_call_with_args_parentheses
         a foo
         b(foo).a(foo)
@@ -50,7 +49,6 @@ module Rubocop
           c,
         )
       end
-      # rubocop:enable Layout/RedundantLineBreak
 
       def send_cop
         Foo.public_send :bar
@@ -68,7 +66,6 @@ module Rubocop
         (a && b) ? c : d
       end
 
-      # rubocop:disable Layout/RedundantLineBreak
       def trailing_comma_in_arguments
         a = a 1, 2, 3
         b = b(
@@ -78,9 +75,7 @@ module Rubocop
 
         a + b
       end
-      # rubocop:enable Layout/RedundantLineBreak
 
-      # rubocop:disable Layout/RedundantLineBreak
       def trailing_comma_in_array_literal
         a = [1, 2, 3]
         b = [
@@ -90,9 +85,7 @@ module Rubocop
 
         a + b
       end
-      # rubocop:enable Layout/RedundantLineBreak
 
-      # rubocop:disable Layout/RedundantLineBreak
       def trailing_comma_in_hash_literal
         a = { a: 1, b: 2, c: 3 }
         b = {
@@ -102,7 +95,6 @@ module Rubocop
 
         a + b
       end
-      # rubocop:enable Layout/RedundantLineBreak
 
       def unless_logical_operators
         return unless a || b

@@ -36,10 +36,6 @@ Layout/MultilineAssignmentLayout:
 Layout/MultilineHashKeyLineBreaks:
   Enabled: true
 
-Layout/RedundantLineBreak:
-  Enabled: true
-  InspectBlocks: true
-
 # Allow coordinate parameter names (along with the rest of the defaults, which must be redefined here)
 Naming/MethodParameterName:
   AllowedNames:
