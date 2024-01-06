@@ -9,17 +9,7 @@ Add `rubocop-rickselby` to your Gemfile:
 ```ruby
 
 group :development, :test do
-  gem "rubocop-rickselby", "~> 0.1", require: false
-
-  # If you are using rails:
-  gem "rubocop-rails", require: false
-  gem "rubocop-rails-accessibility", require: false
-
-  # If you are using rspec:
-  gem "rubocop-rspec", require: false
-  
-  # If you are using capybara:
-  gem "rubocop-capybara", require: false
+  gem "rubocop-rickselby", "~> 0.10", require: false
 end
 ```
 
