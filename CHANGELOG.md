@@ -1,5 +1,7 @@
 ## [Unreleased]
 
+## [0.10.0] - 2024-01-06
+
 - Require all gems so we can pin them to specific versions and keep the configuration up to date
 
 ## [0.9.0] - 2024-01-05
