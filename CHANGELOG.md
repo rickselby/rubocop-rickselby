@@ -1,5 +1,7 @@
 ## [Unreleased]
 
+- Don't try to remove parentheses for method calls
+
 ## [0.11.1] - 2024-01-06
 
 - No changes; trying to bump version so rubygems sees the update

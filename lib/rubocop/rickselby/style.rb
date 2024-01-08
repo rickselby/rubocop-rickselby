@@ -39,17 +39,6 @@ module Rubocop
         1.fdiv 2
       end
 
-      def method_call_with_args_parentheses
-        a foo
-        b(foo).a(foo)
-        Array(1)
-        a(foo) || b(foo)
-        a(
-          b,
-          c,
-        )
-      end
-
       def send_cop
         Foo.public_send :bar
       end
