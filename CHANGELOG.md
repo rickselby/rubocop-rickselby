@@ -1,5 +1,7 @@
 ## [Unreleased]
 
+## [0.12.0] - 2024-01-08
+
 - Don't try to remove parentheses for method calls
 
 ## [0.11.1] - 2024-01-06
