@@ -83,15 +83,6 @@ Style/FloatDivision:
 Style/IpAddresses:
   Enabled: true
 
-# I'd like this if we can declare a list of functions that should use parentheses.
-# e.g. let() for rspec
-#Style/MethodCallWithArgsParentheses:
-#  Enabled: true
-#  AllowParenthesesInCamelCaseMethod: true
-#  AllowParenthesesInChaining: true
-#  AllowParenthesesInMultilineCall: true
-#  EnforcedStyle: omit_parentheses
-
 Style/MethodCalledOnDoEndBlock:
   Enabled: true
 
