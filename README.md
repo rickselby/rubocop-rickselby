@@ -20,9 +20,10 @@ Inherit the desired configuration in your `.rubocop.yml`:
 inherit_gem:
   rubocop-rickselby:
     - config/default.yml # generic Ruby rules and cops
+    - config/capybara.yml # capybara-specific rules and cops
     - config/rails.yml # Rails-specific rules and cops
     - config/rspec.yml # RSpec-specific rules and cops
-    - config/capybara.yml # capybara-specific rules and cops
+    - config/sequel.yml # sequel-specific rules and cops
 ```
 
 ## Contributing
