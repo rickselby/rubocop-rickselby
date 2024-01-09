@@ -1,6 +1,7 @@
 ## [Unreleased]
 
 - Configure cops for RSpec
+- Configure cops for Rails
 
 ## [0.12.0] - 2024-01-08
 

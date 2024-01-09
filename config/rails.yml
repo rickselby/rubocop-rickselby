@@ -26,6 +26,21 @@ Performance/Detect:
 Performance/Sum:
   Enabled: false
 
+Rails/DefaultScope:
+  Enabled: true
+
+Rails/EnvironmentVariableAccess:
+  Enabled: true
+
+Rails/OrderById:
+  Enabled: true
+
+Rails/PluckId:
+  Enabled: true
+
+Rails/TableNameAssignment:
+  Enabled: true
+
 Style/Documentation:
   Exclude:
     - app/controllers/**/*
