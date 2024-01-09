@@ -3,6 +3,7 @@
 - Configure cops for RSpec
 - Configure cops for Rails
 - Add sequel extension
+- Add factory_bot extension
 
 ## [0.12.0] - 2024-01-08
 
