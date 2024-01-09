@@ -1,5 +1,7 @@
 ## [Unreleased]
 
+- Configure cops for RSpec
+
 ## [0.12.0] - 2024-01-08
 
 - Don't try to remove parentheses for method calls
