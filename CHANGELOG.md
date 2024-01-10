@@ -1,5 +1,7 @@
 ## [Unreleased]
 
+## [0.14.0] - 2024-01-10
+
 - Add configuration for `erb-lint`
 
 ## [0.13.0] - 2024-01-09
