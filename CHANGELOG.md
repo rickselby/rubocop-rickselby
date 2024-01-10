@@ -1,5 +1,7 @@
 ## [Unreleased]
 
+- Don't enforce documentation on rails mailers
+
 ## [0.14.0] - 2024-01-10
 
 - Add configuration for `erb-lint`

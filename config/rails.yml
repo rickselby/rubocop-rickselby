@@ -44,6 +44,7 @@ Rails/TableNameAssignment:
 Style/Documentation:
   Exclude:
     - app/controllers/**/*
+    - app/mailers/**/*
     - app/models/**/*
     - config/**/*
     - db/migrate/**/*
