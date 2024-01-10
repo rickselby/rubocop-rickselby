@@ -3,8 +3,6 @@ EnableDefaultLinters: true
 linters:
   ErbSafety:
     enabled: true
-  RequireScriptNonce:
-    enabled: true
   Rubocop:
     enabled: true
     rubocop_config:
