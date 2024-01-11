@@ -1,5 +1,7 @@
 ## [Unreleased]
 
+## [0.15.0] - 2024-01-11
+
 - Don't enforce documentation on rails mailers
 
 ## [0.14.0] - 2024-01-10
