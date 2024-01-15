@@ -5,8 +5,7 @@ updates:
     allow:
       - dependency-type: "all"
     schedule:
-      interval: weekly
-      day: saturday
+      interval: daily
       time: "08:00"
       timezone: "Europe/London"
     versioning-strategy: increase
