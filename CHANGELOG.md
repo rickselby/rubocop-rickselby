@@ -1,5 +1,7 @@
 ## [Unreleased]
 
+- Update rubocop to 1.60.1
+
 ## [0.15.0] - 2024-01-11
 
 - Don't enforce documentation on rails mailers
