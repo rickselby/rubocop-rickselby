@@ -1,5 +1,7 @@
 ## [Unreleased]
 
+## [0.17.0] - 2024-02-10
+
 - Update `rubocop-rails-accessibility` to 1.0.1
 
 ## [0.16.0] - 2024-01-20

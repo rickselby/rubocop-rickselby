@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    rubocop-rickselby (0.16.0)
+    rubocop-rickselby (0.17.0)
       erb_lint (~> 0.5.0)
       rubocop (~> 1.60.0)
       rubocop-capybara (~> 2.20.0)
