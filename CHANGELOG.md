@@ -1,5 +1,7 @@
 ## [Unreleased]
 
+## [0.18.0] - 2024-02-10
+
 - Disable alignment of let block braces
   - any change to a single line may have to change other lines, which isn't nice
 - Disable `RSpec/MultipleExpectations` and `RSpec/ExampleLength` for `spec/system` folder
