@@ -1,3 +1,4 @@
+---
 require:
   - rubocop-rails
   - rubocop-rails-accessibility
@@ -40,6 +41,8 @@ Rails/PluckId:
 
 Rails/TableNameAssignment:
   Enabled: true
+
+
 
 Style/Documentation:
   Exclude:

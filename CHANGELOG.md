@@ -1,5 +1,9 @@
 ## [Unreleased]
 
+- Disable alignment of let block braces
+  - any change to a single line may have to change other lines, which isn't nice
+- Disable `RSpec/MultipleExpectations` and `RSpec/ExampleLength` for `spec/system` folder
+
 ## [0.17.0] - 2024-02-10
 
 - Update `rubocop-rails-accessibility` to 1.0.1

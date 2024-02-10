@@ -1,11 +1,14 @@
+---
 require:
   - rubocop-rspec
 
-RSpec/AlignLeftLetBrace:
-  Enabled: true
-
-RSpec/AlignRightLetBrace:
-  Enabled: true
-
 RSpec/ExampleWithoutDescription:
   EnforcedStyle: single_line_only
+
+RSpec/MultipleExpectations:
+  Exclude:
+    - 'spec/system/**/*'
+    -
+RSpec/ExampleLength:
+  Exclude:
+    - 'spec/system/**/*'
