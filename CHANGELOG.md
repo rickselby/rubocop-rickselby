@@ -1,8 +1,10 @@
 ## [Unreleased]
 
+- Update `rubocop-rails-accessibility` to 1.0.1
+
 ## [0.16.0] - 2024-01-20
 
-- Update rubocop to 1.60.1
+- Update `rubocop` to 1.60.1
 
 ## [0.15.0] - 2024-01-11
 
@@ -16,8 +18,8 @@
 
 - Configure cops for RSpec
 - Configure cops for Rails
-- Add sequel extension
-- Add factory_bot extension
+- Add `sequel` extension
+- Add `factory_bot` extension
 
 ## [0.12.0] - 2024-01-08
 
@@ -42,8 +44,8 @@
 
 ## [0.8.0] - 2023-12-18
 
-- Bump rubocop to 1.59
-- Bump rubocop-performance to 1.20
+- Bump `rubocop` to 1.59
+- Bump `rubocop-performance` to 1.20
 
 ## [0.7.0] - 2023-12-06
 
@@ -59,7 +61,7 @@
 
 ## [0.4.0] - 2023-12-03
 
-- Separate rspec and capybara
+- Separate `rspec` and `capybara`
 
 ## [0.3.0] - 2023-12-03
 
