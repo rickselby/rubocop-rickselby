@@ -1,5 +1,7 @@
 ## [Unreleased]
 
+- Disable `Layout/HashAlignment` in erb files
+
 ## [0.18.0] - 2024-02-10
 
 - Disable alignment of let block braces

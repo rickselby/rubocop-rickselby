@@ -8,6 +8,8 @@ linters:
     rubocop_config:
       inherit_from:
         - .rubocop.yml
+      Layout/HashAlignment:
+        Enabled: false
       Layout/InitialIndentation:
         Enabled: false
       Layout/TrailingEmptyLines:
