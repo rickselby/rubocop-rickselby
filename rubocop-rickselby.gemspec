@@ -4,7 +4,7 @@ require_relative "lib/rubocop/rickselby/version"
 
 Gem::Specification.new do |spec|
   spec.name = "rubocop-rickselby"
-  spec.version = Rubocop::Rickselby::VERSION
+  spec.version = Rubocop::RickSelby::VERSION
   spec.authors = ["Rick Selby"]
   spec.email = ["rick@selby-family.co.uk"]
 
