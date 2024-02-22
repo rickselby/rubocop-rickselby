@@ -1,5 +1,8 @@
 ## [Unreleased]
 
+- Increase maximum nesting for RSpec example groups to 5
+- Reorder some definitions alphabetically
+
 ## [0.18.0] - 2024-02-14
 
 - Disable `Layout/HashAlignment` in erb files
