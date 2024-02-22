@@ -14,4 +14,4 @@ RSpec/MultipleExpectations:
     - 'spec/system/**/*'
 
 RSpec/NestedGroups:
-  MaxNesting: 5
+  Max: 5
