@@ -1,5 +1,7 @@
 ## [Unreleased]
 
+## [0.20.1] - 2024-02-22
+
 - Fix parameter name for RSpec/NestedGroups
 
 ## [0.20.0] - 2024-02-22
