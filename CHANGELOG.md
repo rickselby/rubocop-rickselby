@@ -1,5 +1,7 @@
 ## [Unreleased]
 
+## [0.21.0] - 2024-02-26
+
 - Update `RSpec/MultipleMemoizedHelpers`; set `Max` to `10`.
 
 ## [0.20.1] - 2024-02-22
