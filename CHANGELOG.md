@@ -1,5 +1,7 @@
 ## [Unreleased]
 
+- Update `RSpec/MultipleMemoizedHelpers`; set `Max` to `10`.
+
 ## [0.20.1] - 2024-02-22
 
 - Fix parameter name for RSpec/NestedGroups
