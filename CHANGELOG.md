@@ -1,5 +1,7 @@
 ## [Unreleased]
 
+## [0.22.0] - 2024-02-27
+
 - Rename `factory-bot.yml` to `factory_bot.yml`
 - Set `FactoryBot/ConsistentParenthesesStyle` to omit parenthesis
 
