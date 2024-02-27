@@ -1,5 +1,8 @@
 ## [Unreleased]
 
+- Rename `factory-bot.yml` to `factory_bot.yml`
+- Set `FactoryBot/ConsistentParenthesesStyle` to omit parenthesis
+
 ## [0.21.0] - 2024-02-26
 
 - Update `RSpec/MultipleMemoizedHelpers`; set `Max` to `10`.

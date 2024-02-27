@@ -1,0 +1,6 @@
+---
+require:
+  - rubocop-factory_bot
+
+FactoryBot/ConsistentParenthesesStyle:
+  EnforcedStyle: omit_parentheses
