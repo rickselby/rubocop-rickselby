@@ -29,7 +29,7 @@ Gem::Specification.new do |spec|
   spec.add_dependency "rubocop-rails", "~> 2.23.0"
   spec.add_dependency "rubocop-rails-accessibility", "~> 1.0.0"
   spec.add_dependency "rubocop-rake", "~> 0.6.0"
-  spec.add_dependency "rubocop-rspec", "~> 2.26.0"
+  spec.add_dependency "rubocop-rspec", ">= 2.26", "< 2.28"
   spec.add_dependency "rubocop-sequel", "~> 0.3.4"
 
   spec.metadata["rubygems_mfa_required"] = "true"
