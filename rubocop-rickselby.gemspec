@@ -22,14 +22,14 @@ Gem::Specification.new do |spec|
   spec.files = Dir["README.md", "STYLEGUIDE.md", "LICENSE.text", "config/*.yml", "lib/rubocop/rickselby/version.rb"]
 
   spec.add_dependency "erb_lint", "~> 0.5.0"
-  spec.add_dependency "rubocop", "~> 1.60.0"
+  spec.add_dependency "rubocop", "~> 1.61.0"
   spec.add_dependency "rubocop-capybara", "~> 2.20.0"
   spec.add_dependency "rubocop-factory_bot", "~> 2.25.0"
   spec.add_dependency "rubocop-performance", "~> 1.20.0"
   spec.add_dependency "rubocop-rails", "~> 2.23.0"
   spec.add_dependency "rubocop-rails-accessibility", "~> 1.0.0"
   spec.add_dependency "rubocop-rake", "~> 0.6.0"
-  spec.add_dependency "rubocop-rspec", "~> 2.26.0"
+  spec.add_dependency "rubocop-rspec", "~> 2.27.0"
   spec.add_dependency "rubocop-sequel", "~> 0.3.4"
 
   spec.metadata["rubygems_mfa_required"] = "true"

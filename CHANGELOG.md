@@ -1,5 +1,8 @@
 ## [Unreleased]
 
+- Update `rubocop` to 1.61.0
+- Update `rubocop-rspec` to 2.27.0
+
 ## [0.22.0] - 2024-02-27
 
 - Rename `factory-bot.yml` to `factory_bot.yml`
