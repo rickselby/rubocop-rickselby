@@ -5,7 +5,7 @@
 - Update `rubocop-performance` to 1.21.0
 - Update `rubocop-rspec` to 1.28.0
 
-## [0.24.0] - 2024-03-06
+## [0.25.0] - 2024-03-06
 
 - Update `rubocop` to 1.62.0
 
