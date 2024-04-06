@@ -1,9 +1,11 @@
 ## [Unreleased]
 
+- Update `rubocop-rspec` to 2.29.1
+
 ## [0.26.0] - 2024-04-02
 
 - Update `rubocop-performance` to 1.21.0
-- Update `rubocop-rspec` to 1.28.0
+- Update `rubocop-rspec` to 2.28.0
 
 ## [0.25.0] - 2024-03-06
 
