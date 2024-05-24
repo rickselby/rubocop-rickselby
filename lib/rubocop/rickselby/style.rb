@@ -39,10 +39,6 @@ module Rubocop
         1.fdiv 2
       end
 
-      def send_cop
-        Foo.public_send :bar
-      end
-
       def string_literals_in_interpolation
         "This #{foo ? "thing" : "whatsit"}"
       end
