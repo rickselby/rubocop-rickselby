@@ -1,6 +1,7 @@
 ## [Unreleased]
 
 - Update `rubocop-factory_bot` to 2.26.0 
+- Update `rubocop-capybara` to 2.21.0
 
 ## [0.31.0] - 2024-06-08
 
