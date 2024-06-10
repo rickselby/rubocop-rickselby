@@ -1,5 +1,7 @@
 ## [Unreleased]
 
+- Update `rubocop-factory_bot` to 2.26.0 
+
 ## [0.31.0] - 2024-06-08
 
 - Update `rubocop-rspec` to 2.31.0
