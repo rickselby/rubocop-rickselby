@@ -23,6 +23,7 @@ inherit_gem:
     - config/factory_bot.yml # factory_bot-specific rules and cops
     - config/rails.yml # Rails-specific rules and cops
     - config/rspec.yml # RSpec-specific rules and cops
+    - config/rspec_rails.yml # RSpec-specific rules and cops for rails
     - config/sequel.yml # sequel-specific rules and cops
 ```
 
