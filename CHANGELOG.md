@@ -60,11 +60,11 @@
 
 ## [0.20.1] - 2024-02-22
 
-- Fix parameter name for RSpec/NestedGroups
+- Fix parameter name for `RSpec/NestedGroups`
 
 ## [0.20.0] - 2024-02-22
 
-- Increase maximum nesting for RSpec example groups to 5
+- Increase maximum nesting for `RSpec/NestedGroups` to 5
 - Reorder some definitions alphabetically
 
 ## [0.19.0] - 2024-02-14
@@ -73,7 +73,7 @@
 
 ## [0.18.0] - 2024-02-10
 
-- Disable alignment of let block braces
+- Disable alignment of `let` block braces
   - any change to a single line may have to change other lines, which isn't nice
 - Disable `RSpec/MultipleExpectations` and `RSpec/ExampleLength` for `spec/system` folder
 
