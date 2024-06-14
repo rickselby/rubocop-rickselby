@@ -1,5 +1,8 @@
 ## [Unreleased]
 
+- Update `rubocop-rspec` to 3.0.1
+- Add `rubocop-rspec_rails` explicitly (was previously required through `rubocop-rspec`)
+
 ## [0.32.0] - 2024-06-10
 
 - Update `rubocop-factory_bot` to 2.26.0 
