@@ -1,5 +1,7 @@
 ## [Unreleased]
 
+## [0.33.0] - 2024-06-14
+
 - Update `rubocop-rspec` to 3.0.1
 - Add `rubocop-rspec_rails` explicitly (was previously required through `rubocop-rspec`)
 
