@@ -3,7 +3,7 @@ PATH
   specs:
     rubocop-rickselby (0.33.0)
       erb_lint (~> 0.5.0)
-      rubocop (>= 1.64, < 1.66)
+      rubocop (~> 1.65.0)
       rubocop-capybara (~> 2.21.0)
       rubocop-factory_bot (~> 2.26.0)
       rubocop-performance (~> 1.21.0)
@@ -136,4 +136,4 @@ DEPENDENCIES
   rubocop-rickselby!
 
 BUNDLED WITH
-   2.5.4
+   2.5.15
