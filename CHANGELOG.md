@@ -1,5 +1,9 @@
 ## [Unreleased]
 
+## [0.35.0] - 2024-08-12
+
+- Update `erb_lint` to 0.6.0
+
 ## [0.34.0] - 2024-07-13
 
 - Update `rubocop` to 1.65.0
