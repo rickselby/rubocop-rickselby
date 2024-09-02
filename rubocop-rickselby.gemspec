@@ -22,7 +22,7 @@ Gem::Specification.new do |spec|
   spec.files = Dir["README.md", "STYLEGUIDE.md", "LICENSE.text", "config/*.yml", "lib/rubocop/rickselby/version.rb"]
 
   spec.add_dependency "erb_lint", "~> 0.6.0"
-  spec.add_dependency "rubocop", "~> 1.65.0"
+  spec.add_dependency "rubocop", "~> 1.66.0"
   spec.add_dependency "rubocop-capybara", "~> 2.21.0"
   spec.add_dependency "rubocop-factory_bot", "~> 2.26.0"
   spec.add_dependency "rubocop-performance", "~> 1.21.0"
