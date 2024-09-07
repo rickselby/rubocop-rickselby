@@ -1,5 +1,7 @@
 ## [Unreleased]
 
+## [0.38.0] - 2024-09-07
+
 - Add `rexml` as a dependency for `erb_lint`
 
 ## [0.37.0] - 2024-09-02
@@ -175,6 +177,11 @@
 - Initial release
 
 [unreleased]: https://github.com/rickselby/rubocop-rickselby/compare/v0.33.0...HEAD
+[0.38.0]: https://github.com/rickselby/rubocop-rickselby/compare/v0.37.0...v0.38.0
+[0.37.0]: https://github.com/rickselby/rubocop-rickselby/compare/v0.36.0...v0.37.0
+[0.36.0]: https://github.com/rickselby/rubocop-rickselby/compare/v0.35.0...v0.36.0
+[0.35.0]: https://github.com/rickselby/rubocop-rickselby/compare/v0.34.0...v0.35.0
+[0.34.0]: https://github.com/rickselby/rubocop-rickselby/compare/v0.33.0...v0.34.0
 [0.33.0]: https://github.com/rickselby/rubocop-rickselby/compare/v0.32.0...v0.33.0
 [0.32.0]: https://github.com/rickselby/rubocop-rickselby/compare/v0.31.0...v0.32.0
 [0.31.0]: https://github.com/rickselby/rubocop-rickselby/compare/v0.30.0...v0.31.0
