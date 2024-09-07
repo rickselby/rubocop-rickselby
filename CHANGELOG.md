@@ -1,5 +1,7 @@
 ## [Unreleased]
 
+- Add `rexml` as a dependency for `erb_lint`
+
 ## [0.37.0] - 2024-09-02
 
 - Update `rubocop` to 1.66.0
