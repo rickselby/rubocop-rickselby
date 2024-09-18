@@ -1,5 +1,7 @@
 ## [Unreleased]
 
+- Update `rubocop-performance` to 1.22.0
+ 
 ## [0.38.0] - 2024-09-07
 
 - Add `rexml` as a dependency for `erb_lint`
