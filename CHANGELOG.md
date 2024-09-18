@@ -1,5 +1,7 @@
 ## [Unreleased]
 
+## [0.39.0] - 2024-09-18
+
 - Update `rubocop-performance` to 1.22.0
  
 ## [0.38.0] - 2024-09-07
