@@ -1,5 +1,7 @@
 ## [Unreleased]
 
+- Exclude `Metrics/MethodLength` from rails migration methods
+
 ## [0.39.0] - 2024-09-18
 
 - Update `rubocop-performance` to 1.22.0

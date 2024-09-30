@@ -11,6 +11,11 @@ Metrics/BlockLength:
   Exclude:
     - 'config/**/*'
 
+# Migrations can be very long
+Metrics/MethodLength:
+  Exclude:
+    - 'db/**/*'
+
 # casecmp does not work with all of Unicode, so this is not a good optimization for internationalized apps
 Performance/Casecmp:
   Enabled: false
