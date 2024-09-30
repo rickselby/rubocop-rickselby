@@ -1,5 +1,7 @@
 ## [Unreleased]
 
+## [0.40.0] - 2024-09-30
+
 - Exclude `Metrics/MethodLength` from rails migration methods
 
 ## [0.39.0] - 2024-09-18
