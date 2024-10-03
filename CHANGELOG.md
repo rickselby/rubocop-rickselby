@@ -1,5 +1,7 @@
 ## [Unreleased]
 
+- Update `rubocop-rspec` to 3.1.0
+
 ## [0.40.0] - 2024-09-30
 
 - Exclude `Metrics/MethodLength` from rails migration methods
