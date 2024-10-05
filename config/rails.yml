@@ -6,6 +6,11 @@ require:
 AllCops:
   ActiveSupportExtensionsEnabled: true
 
+# Migrations can be complex
+Metrics/AbcSize:
+  Exclude:
+    - 'db/**/*'
+
 # Config blocks can be very long
 Metrics/BlockLength:
   Exclude:
