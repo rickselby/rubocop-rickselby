@@ -1,5 +1,7 @@
 ## [Unreleased]
 
+- Update `rubocop` to 1.67.0
+
 ## [0.42.0] - 2024-10-05
 
 - Exclude `Metrics/AbcSize` from rails migrations
