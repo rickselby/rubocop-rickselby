@@ -21,7 +21,7 @@ Gem::Specification.new do |spec|
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.
   spec.files = Dir["README.md", "STYLEGUIDE.md", "LICENSE.text", "config/*.yml", "lib/rubocop/rickselby/version.rb"]
 
-  spec.add_dependency "erb_lint", ">= 0.6", "< 0.8"
+  spec.add_dependency "erb_lint", "~> 0.7.0"
   spec.add_dependency "rexml", "~> 3.3"
   spec.add_dependency "rubocop", "~> 1.67.0"
   spec.add_dependency "rubocop-capybara", "~> 2.21.0"
