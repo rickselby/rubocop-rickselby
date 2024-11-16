@@ -1,5 +1,7 @@
 ## [Unreleased]
 
+- Update `rubocop-performance` to 1.23.0
+
 ## [0.44.0] - 2024-11-01
 
 - Update `rubocop-rails` to 2.27.0
