@@ -1,5 +1,7 @@
 ## [Unreleased]
 
+## [0.45.0] - 2024-11-16
+
 - Update `rubocop-performance` to 1.23.0
 
 ## [0.44.0] - 2024-11-01
