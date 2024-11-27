@@ -4,7 +4,7 @@ PATH
     rubocop-rickselby (0.45.0)
       erb_lint (~> 0.7.0)
       rexml (~> 3.3)
-      rubocop (>= 1.68, < 1.70)
+      rubocop (~> 1.69.0)
       rubocop-capybara (~> 2.21.0)
       rubocop-factory_bot (~> 2.26.0)
       rubocop-performance (~> 1.23.0)
