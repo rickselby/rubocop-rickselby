@@ -1,5 +1,7 @@
 ## [Unreleased]
 
+- Update `rubocop-rails` to 2.28.0
+
 ## [0.47.0] - 2024-12-14
 
 - Update `rubocop-rspec` to 3.3.0
