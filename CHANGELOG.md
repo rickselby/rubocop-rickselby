@@ -1,5 +1,7 @@
 ## [Unreleased]
 
+- Update `erb_lint` to 0.8.0
+
 ## [0.48.0] - 2024-12-31
 
 - Update `rubocop-rails` to 2.28.0
