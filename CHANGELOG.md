@@ -1,5 +1,7 @@
 ## [Unreleased]
 
+- Update `rubocop` to 1.70.0
+
 ## [0.48.0] - 2024-12-31
 
 - Update `rubocop-rails` to 2.28.0
