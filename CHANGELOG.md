@@ -1,5 +1,12 @@
 ## [Unreleased]
 
+## [0.50.0] - 2024-01-25
+
+- Update `erb_lint` to 0.9.0
+- Update `rubocop` to 1.71.0
+- Update `rubocop-rails` to 2.29.0
+- Update `rubocop-rspec` to 3.4.0
+
 ## [0.49.0] - 2024-01-10
 
 - Update `erb_lint` to 0.8.0
