@@ -10,7 +10,7 @@ PATH
       rubocop-performance (~> 1.23.0)
       rubocop-rails (~> 2.30.0)
       rubocop-rails-accessibility (~> 1.0.0)
-      rubocop-rake (>= 0.6, < 0.8)
+      rubocop-rake (~> 0.7.0)
       rubocop-rspec (~> 3.4.0)
       rubocop-rspec_rails (~> 2.30.0)
       rubocop-sequel (~> 0.3.4)
