@@ -1,6 +1,12 @@
 ---
 inherit_from:
+  - ./config/capybara.yml
   - ./config/default.yml
+  - ./config/factory_bot.yml
+  - ./config/rails.yml
+  - ./config/rspec.yml
+  - ./config/rspec_rails.yml
+  - ./config/sequel.yml
 
 AllCops:
   TargetRubyVersion: 3.0

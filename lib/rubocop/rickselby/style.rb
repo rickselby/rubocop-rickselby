@@ -32,7 +32,7 @@ module Rubocop
       end
 
       def date_time
-        Time.now
+        Time.zone.now
       end
 
       def float_division
