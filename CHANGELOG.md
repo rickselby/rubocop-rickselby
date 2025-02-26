@@ -1,5 +1,7 @@
 ## Unreleased
 
+## [0.52.0] - 2024-02-26
+
 - Use `plugins` instead of `require` where possible
 - Update `rubocop` to 1.73.0
 
