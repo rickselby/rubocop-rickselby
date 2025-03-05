@@ -13,7 +13,7 @@ PATH
       rubocop-rake (~> 0.7.0)
       rubocop-rspec (~> 3.5.0)
       rubocop-rspec_rails (~> 2.30.0)
-      rubocop-sequel (~> 0.3.4)
+      rubocop-sequel (~> 0.4.0)
 
 GEM
   remote: https://rubygems.org/
@@ -129,8 +129,9 @@ GEM
     rubocop-rspec_rails (2.30.0)
       rubocop (~> 1.61)
       rubocop-rspec (~> 3, >= 3.0.1)
-    rubocop-sequel (0.3.8)
-      rubocop (~> 1.0)
+    rubocop-sequel (0.4.0)
+      lint_roller (~> 1.1)
+      rubocop (>= 1.72.1, < 1.74.0)
     ruby-progressbar (1.13.0)
     securerandom (0.3.2)
     smart_properties (1.17.0)
