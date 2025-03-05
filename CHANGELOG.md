@@ -1,5 +1,7 @@
 ## Unreleased
 
+- Update `rubocop-sequel` to 0.4.0
+
 ## [0.52.0] - 2024-02-26
 
 - Use `plugins` instead of `require` where possible
