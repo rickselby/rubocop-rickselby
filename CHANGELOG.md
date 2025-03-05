@@ -246,7 +246,21 @@
 
 - Initial release
 
-[unreleased]: https://github.com/rickselby/rubocop-rickselby/compare/v0.33.0...HEAD
+[unreleased]: https://github.com/rickselby/rubocop-rickselby/compare/v0.52.0...HEAD
+[0.52.0]: https://github.com/rickselby/rubocop-rickselby/compare/v0.51.0...v0.52.0
+[0.51.0]: https://github.com/rickselby/rubocop-rickselby/compare/v0.50.0...v0.51.0
+[0.50.0]: https://github.com/rickselby/rubocop-rickselby/compare/v0.49.0...v0.50.0
+[0.49.0]: https://github.com/rickselby/rubocop-rickselby/compare/v0.48.0...v0.49.0
+[0.48.0]: https://github.com/rickselby/rubocop-rickselby/compare/v0.47.0...v0.48.0
+[0.47.0]: https://github.com/rickselby/rubocop-rickselby/compare/v0.46.0...v0.47.0
+[0.46.0]: https://github.com/rickselby/rubocop-rickselby/compare/v0.45.0...v0.46.0
+[0.45.0]: https://github.com/rickselby/rubocop-rickselby/compare/v0.44.0...v0.45.0
+[0.44.0]: https://github.com/rickselby/rubocop-rickselby/compare/v0.43.0...v0.44.0
+[0.43.0]: https://github.com/rickselby/rubocop-rickselby/compare/v0.42.0...v0.43.0
+[0.42.0]: https://github.com/rickselby/rubocop-rickselby/compare/v0.41.0...v0.42.0
+[0.41.0]: https://github.com/rickselby/rubocop-rickselby/compare/v0.40.0...v0.41.0
+[0.40.0]: https://github.com/rickselby/rubocop-rickselby/compare/v0.39.0...v0.40.0
+[0.39.0]: https://github.com/rickselby/rubocop-rickselby/compare/v0.38.0...v0.39.0
 [0.38.0]: https://github.com/rickselby/rubocop-rickselby/compare/v0.37.0...v0.38.0
 [0.37.0]: https://github.com/rickselby/rubocop-rickselby/compare/v0.36.0...v0.37.0
 [0.36.0]: https://github.com/rickselby/rubocop-rickselby/compare/v0.35.0...v0.36.0
