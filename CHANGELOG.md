@@ -1,4 +1,6 @@
-## Unreleased
+## [Unreleased]
+
+## [0.53.0] - 2024-03-07
 
 - Update `rubocop-factory_bot` to 2.27.0
 - Update `rubocop-sequel` to 0.4.0
@@ -247,7 +249,8 @@
 
 - Initial release
 
-[unreleased]: https://github.com/rickselby/rubocop-rickselby/compare/v0.52.0...HEAD
+[unreleased]: https://github.com/rickselby/rubocop-rickselby/compare/v0.53.0...HEAD
+[0.52.0]: https://github.com/rickselby/rubocop-rickselby/compare/v0.52.0...v0.53.0
 [0.52.0]: https://github.com/rickselby/rubocop-rickselby/compare/v0.51.0...v0.52.0
 [0.51.0]: https://github.com/rickselby/rubocop-rickselby/compare/v0.50.0...v0.51.0
 [0.50.0]: https://github.com/rickselby/rubocop-rickselby/compare/v0.49.0...v0.50.0
