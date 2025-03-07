@@ -250,7 +250,7 @@
 - Initial release
 
 [unreleased]: https://github.com/rickselby/rubocop-rickselby/compare/v0.53.0...HEAD
-[0.52.0]: https://github.com/rickselby/rubocop-rickselby/compare/v0.52.0...v0.53.0
+[0.53.0]: https://github.com/rickselby/rubocop-rickselby/compare/v0.52.0...v0.53.0
 [0.52.0]: https://github.com/rickselby/rubocop-rickselby/compare/v0.51.0...v0.52.0
 [0.51.0]: https://github.com/rickselby/rubocop-rickselby/compare/v0.50.0...v0.51.0
 [0.50.0]: https://github.com/rickselby/rubocop-rickselby/compare/v0.49.0...v0.50.0
