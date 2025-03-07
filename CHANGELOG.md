@@ -1,5 +1,6 @@
 ## Unreleased
 
+- Update `rubocop-factory_bot` to 2.27.0
 - Update `rubocop-sequel` to 0.4.0
 
 ## [0.52.0] - 2024-02-26
