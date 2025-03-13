@@ -1,6 +1,7 @@
 ## [Unreleased]
 
 - Update `rubocop-capybara` to 2.22.0
+- Update `rubocop-rspec_rails` to 2.31.0
 
 ## [0.53.0] - 2024-03-07
 
