@@ -1,5 +1,7 @@
 ## [Unreleased]
 
+## [0.54.0] - 2024-03-13
+
 - Update `rubocop` to 1.74.0
 - Update `rubocop-capybara` to 2.22.0
 - Update `rubocop-rspec_rails` to 2.31.0
@@ -253,7 +255,8 @@
 
 - Initial release
 
-[unreleased]: https://github.com/rickselby/rubocop-rickselby/compare/v0.53.0...HEAD
+[unreleased]: https://github.com/rickselby/rubocop-rickselby/compare/v0.54.0...HEAD
+[0.54.0]: https://github.com/rickselby/rubocop-rickselby/compare/v0.53.0...v0.54.0
 [0.53.0]: https://github.com/rickselby/rubocop-rickselby/compare/v0.52.0...v0.53.0
 [0.52.0]: https://github.com/rickselby/rubocop-rickselby/compare/v0.51.0...v0.52.0
 [0.51.0]: https://github.com/rickselby/rubocop-rickselby/compare/v0.50.0...v0.51.0
