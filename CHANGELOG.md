@@ -1,5 +1,6 @@
 ## [Unreleased]
 
+- Update `rubocop` to 1.74.0
 - Update `rubocop-capybara` to 2.22.0
 - Update `rubocop-rspec_rails` to 2.31.0
 
