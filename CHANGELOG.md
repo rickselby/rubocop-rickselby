@@ -1,5 +1,7 @@
 ## [Unreleased]
 
+- Update `rubocop` to 1.75.x
+
 ## [0.54.0] - 2024-03-13
 
 - Update `rubocop` to 1.74.0
