@@ -1,5 +1,7 @@
 ## [Unreleased]
 
+- Update `rubocop-performance` to 1.25.x
+
 ## [0.55.0] - 2024-03-28
 
 - Update `rubocop` to 1.75.x
