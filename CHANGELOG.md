@@ -2,6 +2,7 @@
 
 - Update `rubocop-performance` to 1.25.x
 - Update `rubocop-rails` to 2.31.x
+- Update `rubocop-rspec` to 3.6.x
 
 ## [0.55.0] - 2024-03-28
 
