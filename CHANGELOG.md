@@ -1,5 +1,7 @@
 ## [Unreleased]
 
+## [0.56.0] - 2024-04-26
+
 - Update `rubocop-performance` to 1.25.x
 - Update `rubocop-rails` to 2.31.x
 - Update `rubocop-rspec` to 3.6.x
@@ -263,7 +265,8 @@
 
 - Initial release
 
-[unreleased]: https://github.com/rickselby/rubocop-rickselby/compare/v0.55.0...HEAD
+[unreleased]: https://github.com/rickselby/rubocop-rickselby/compare/v0.56.0...HEAD
+[0.56.0]: https://github.com/rickselby/rubocop-rickselby/compare/v0.55.0...v0.56.0
 [0.55.0]: https://github.com/rickselby/rubocop-rickselby/compare/v0.54.0...v0.55.0
 [0.54.0]: https://github.com/rickselby/rubocop-rickselby/compare/v0.53.0...v0.54.0
 [0.53.0]: https://github.com/rickselby/rubocop-rickselby/compare/v0.52.0...v0.53.0
