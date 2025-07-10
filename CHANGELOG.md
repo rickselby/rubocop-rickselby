@@ -1,5 +1,7 @@
 ## [Unreleased]
 
+## [0.59.0] - 2024-07-10
+
 - Update `rubocop` to 1.78.x
 
 ## [0.58.0] - 2024-06-21
@@ -275,7 +277,8 @@
 
 - Initial release
 
-[unreleased]: https://github.com/rickselby/rubocop-rickselby/compare/v0.58.0...HEAD
+[unreleased]: https://github.com/rickselby/rubocop-rickselby/compare/v0.59.0...HEAD
+[0.59.0]: https://github.com/rickselby/rubocop-rickselby/compare/v0.58.0...v0.59.0
 [0.58.0]: https://github.com/rickselby/rubocop-rickselby/compare/v0.57.0...v0.58.0
 [0.57.0]: https://github.com/rickselby/rubocop-rickselby/compare/v0.56.0...v0.57.0
 [0.56.0]: https://github.com/rickselby/rubocop-rickselby/compare/v0.55.0...v0.56.0
