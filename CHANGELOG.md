@@ -1,52 +1,54 @@
 ## [Unreleased]
 
+## [0.61.0] - 2025-09-03
+
 - Update `rubocop-rails` to 2.33.x
 - Update `rubocop` to 1.80.x
 - Update `rubocop-rspec` to 3.7.x
 
-## [0.60.0] - 2024-07-26
+## [0.60.0] - 2025-07-26
 
 - Update `rubocop` to 1.79.x
 
-## [0.59.0] - 2024-07-10
+## [0.59.0] - 2025-07-10
 
 - Update `rubocop` to 1.78.x
 
-## [0.58.0] - 2024-06-21
+## [0.58.0] - 2025-06-21
 
 - Update `rubocop` to 1.77.x
 
-## [0.57.0] - 2024-05-23
+## [0.57.0] - 2025-05-23
 
 - Update `rubocop-rails` to 2.32.x
 
-## [0.56.0] - 2024-04-26
+## [0.56.0] - 2025-04-26
 
 - Update `rubocop-performance` to 1.25.x
 - Update `rubocop-rails` to 2.31.x
 - Update `rubocop-rspec` to 3.6.x
 
-## [0.55.0] - 2024-03-28
+## [0.55.0] - 2025-03-28
 
 - Update `rubocop` to 1.75.x
 
-## [0.54.0] - 2024-03-13
+## [0.54.0] - 2025-03-13
 
 - Update `rubocop` to 1.74.0
 - Update `rubocop-capybara` to 2.22.0
 - Update `rubocop-rspec_rails` to 2.31.0
 
-## [0.53.0] - 2024-03-07
+## [0.53.0] - 2025-03-07
 
 - Update `rubocop-factory_bot` to 2.27.0
 - Update `rubocop-sequel` to 0.4.0
 
-## [0.52.0] - 2024-02-26
+## [0.52.0] - 2025-02-26
 
 - Use `plugins` instead of `require` where possible
 - Update `rubocop` to 1.73.0
 
-## [0.51.0] - 2024-02-19
+## [0.51.0] - 2025-02-19
 
 - Update `rubocop` to 1.72.0
 - Update `rubocop-performance` to 3.5.0
@@ -54,14 +56,14 @@
 - Update `rubocop-rake` to 0.7.0
 - Update `rubocop-rspec` to 3.5.0
 
-## [0.50.0] - 2024-01-25
+## [0.50.0] - 2025-01-25
 
 - Update `erb_lint` to 0.9.0
 - Update `rubocop` to 1.71.0
 - Update `rubocop-rails` to 2.29.0
 - Update `rubocop-rspec` to 3.4.0
 
-## [0.49.0] - 2024-01-10
+## [0.49.0] - 2025-01-10
 
 - Update `erb_lint` to 0.8.0
 - Update `rubocop` to 1.70.0
@@ -285,7 +287,8 @@
 
 - Initial release
 
-[unreleased]: https://github.com/rickselby/rubocop-rickselby/compare/v0.60.0...HEAD
+[unreleased]: https://github.com/rickselby/rubocop-rickselby/compare/v0.61.0...HEAD
+[0.61.0]: https://github.com/rickselby/rubocop-rickselby/compare/v0.60.0...v0.61.0
 [0.60.0]: https://github.com/rickselby/rubocop-rickselby/compare/v0.59.0...v0.60.0
 [0.59.0]: https://github.com/rickselby/rubocop-rickselby/compare/v0.58.0...v0.59.0
 [0.58.0]: https://github.com/rickselby/rubocop-rickselby/compare/v0.57.0...v0.58.0
