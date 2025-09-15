@@ -7,7 +7,7 @@ PATH
       rubocop (~> 1.80.0)
       rubocop-capybara (~> 2.22.0)
       rubocop-factory_bot (~> 2.27.0)
-      rubocop-performance (>= 1.25, < 1.27)
+      rubocop-performance (~> 1.26.0)
       rubocop-rails (~> 2.33.0)
       rubocop-rails-accessibility (~> 1.0.0)
       rubocop-rake (~> 0.7.0)
