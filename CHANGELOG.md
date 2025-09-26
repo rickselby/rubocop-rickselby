@@ -1,5 +1,7 @@
 ## [Unreleased]
 
+## [0.62.0] - 2025-09-26
+
 - Update `rubocop-performance` to 1.26.x
 - Update `rubocop` to 1.81.x
 - Change trailing commas to use diff_comma format
