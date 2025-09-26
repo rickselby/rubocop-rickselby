@@ -116,13 +116,13 @@ Style/TopLevelMethodDefinition:
   Enabled: true
 
 Style/TrailingCommaInArguments:
-  EnforcedStyleForMultiline: consistent_comma
+  EnforcedStyleForMultiline: diff_comma
 
 Style/TrailingCommaInArrayLiteral:
-  EnforcedStyleForMultiline: consistent_comma
+  EnforcedStyleForMultiline: diff_comma
 
 Style/TrailingCommaInHashLiteral:
-  EnforcedStyleForMultiline: consistent_comma
+  EnforcedStyleForMultiline: diff_comma
 
 Style/UnlessLogicalOperators:
   Enabled: true
