@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
   spec.summary = "Code styling for my projects"
   spec.homepage = "https://github.com/rickselby/rubocop-rickselby"
   spec.license = "MIT"
-  spec.required_ruby_version = ">= 3.0"
+  spec.required_ruby_version = ">= 3.2"
 
   spec.metadata["homepage_uri"] = spec.homepage
   spec.metadata["source_code_uri"] = "https://github.com/rickselby/rubocop-rickselby"

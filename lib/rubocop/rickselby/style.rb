@@ -39,6 +39,17 @@ module Rubocop
         1.fdiv 2
       end
 
+      def hash_syntax
+        a = 1
+        b = 2
+        { a:, b: }
+      end
+
+      # for 3.4
+      # def it_block_parameter
+      #   [1, 2, 3].map { it * 2 }
+      # end
+
       def string_literals_in_interpolation
         "This #{foo ? "thing" : "whatsit"}"
       end
