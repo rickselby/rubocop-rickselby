@@ -1,5 +1,7 @@
 ## [Unreleased]
 
+## [0.63.0] - 2025-11-07
+
 - Use 3.1's shorthand hash syntax where possible (`Style/HashSyntax`)
 - Use `it` block parameter where possible (`Style/ItBlockParameter`)
 - Drop support for Ruby 3.0 and 3.1
