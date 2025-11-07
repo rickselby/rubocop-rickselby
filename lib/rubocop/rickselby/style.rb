@@ -39,6 +39,12 @@ module Rubocop
         1.fdiv 2
       end
 
+      def hash_syntax
+        a = 1
+        b = 2
+        { a:, b: }
+      end
+
       def string_literals_in_interpolation
         "This #{foo ? "thing" : "whatsit"}"
       end

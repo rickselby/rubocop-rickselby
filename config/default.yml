@@ -81,6 +81,9 @@ Style/DateTime:
 Style/FloatDivision:
   EnforcedStyle: fdiv
 
+Style/HashSyntax:
+  EnforcedShorthandSyntax: always
+
 Style/IpAddresses:
   Enabled: true
 
