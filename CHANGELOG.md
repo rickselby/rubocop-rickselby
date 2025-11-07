@@ -1,5 +1,9 @@
 ## [Unreleased]
 
+- Use 3.1's shorthand hash syntax where possible (`Style/HashSyntax`)
+- Use `it` block parameter where possible (`Style/ItBlockParameter`)
+- Drop support for Ruby 3.0 and 3.1
+
 ## [0.62.0] - 2025-09-26
 
 - Update `rubocop-performance` to 1.26.x
