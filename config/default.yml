@@ -84,6 +84,9 @@ Style/FloatDivision:
 Style/HashSyntax:
   EnforcedShorthandSyntax: always
 
+Style/ItBlockParameter:
+  EnforcedStyle: always
+
 Style/IpAddresses:
   Enabled: true
 

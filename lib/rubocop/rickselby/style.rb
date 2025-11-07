@@ -45,6 +45,11 @@ module Rubocop
         { a:, b: }
       end
 
+      # for 3.4
+      # def it_block_parameter
+      #   [1, 2, 3].map { it * 2 }
+      # end
+
       def string_literals_in_interpolation
         "This #{foo ? "thing" : "whatsit"}"
       end
