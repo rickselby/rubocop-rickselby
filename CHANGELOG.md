@@ -1,5 +1,7 @@
 ## [Unreleased]
 
+- Use the exact target when clicking using Capybara
+
 ## [0.63.0] - 2025-11-07
 
 - Use 3.1's shorthand hash syntax where possible (`Style/HashSyntax`)
