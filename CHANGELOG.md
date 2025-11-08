@@ -1,5 +1,7 @@
 ## [Unreleased]
 
+## [0.64.0] - 2025-11-08
+
 - Use the exact target when clicking using Capybara
 - Check for `require_dependency` in Rails apps
 - Check where a failed save would not throw an error
