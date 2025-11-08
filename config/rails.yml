@@ -50,6 +50,9 @@ Rails/OrderById:
 Rails/PluckId:
   Enabled: true
 
+Rails/RequireDependency:
+  Enabled: true
+
 Rails/TableNameAssignment:
   Enabled: true
 
