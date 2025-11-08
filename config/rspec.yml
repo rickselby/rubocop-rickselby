@@ -2,6 +2,9 @@
 plugins:
   - rubocop-rspec
 
+RSpec/DescribedClassModuleWrapping:
+  Enabled: true
+
 RSpec/ExampleLength:
   Exclude:
     - 'spec/system/**/*'

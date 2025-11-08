@@ -3,6 +3,7 @@
 - Use the exact target when clicking using Capybara
 - Check for `require_dependency` in Rails apps
 - Check where a failed save would not throw an error
+- Don't open modules and define specs inside them
 
 ## [0.63.0] - 2025-11-07
 
