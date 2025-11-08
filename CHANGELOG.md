@@ -1,5 +1,7 @@
 ## [Unreleased]
 
+- Roll back change to enforcing `it` block parameters
+
 ## [0.64.0] - 2025-11-08
 
 - Use the exact target when clicking using Capybara
