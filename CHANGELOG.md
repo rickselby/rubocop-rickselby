@@ -1,5 +1,7 @@
 ## [Unreleased]
 
+## [0.65.0] - 2025-11-13
+
 - Update `rubocop-rspec_rails` to 2.32
 - Update `rubocop-rspec` to 3.8
 - Update `rubocop-factory_bot` to 2.28
