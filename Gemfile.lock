@@ -12,7 +12,7 @@ PATH
       rubocop-rails-accessibility (~> 1.0.0)
       rubocop-rake (~> 0.7.0)
       rubocop-rspec (~> 3.7.0)
-      rubocop-rspec_rails (>= 2.31, < 2.33)
+      rubocop-rspec_rails (~> 2.32.0)
       rubocop-sequel (~> 0.4.0)
 
 GEM

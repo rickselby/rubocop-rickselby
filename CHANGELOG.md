@@ -1,5 +1,7 @@
 ## [Unreleased]
 
+- Update `rubocop-rspec_rails` to 2.32
+
 ## [0.64.1] - 2025-11-08
 
 - Roll back change to enforcing `it` block parameters
