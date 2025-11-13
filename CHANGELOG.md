@@ -1,6 +1,7 @@
 ## [Unreleased]
 
 - Update `rubocop-rspec_rails` to 2.32
+- Update `rubocop-rspec` to 3.8
 
 ## [0.64.1] - 2025-11-08
 
