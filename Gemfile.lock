@@ -6,7 +6,7 @@ PATH
       rexml (~> 3.3)
       rubocop (~> 1.81.0)
       rubocop-capybara (~> 2.22.0)
-      rubocop-factory_bot (>= 2.27, < 2.29)
+      rubocop-factory_bot (~> 2.28.0)
       rubocop-performance (~> 1.26.0)
       rubocop-rails (~> 2.33.0)
       rubocop-rails-accessibility (~> 1.0.0)
