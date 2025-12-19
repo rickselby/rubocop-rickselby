@@ -2,6 +2,6 @@
 
 module Rubocop
   module RickSelby
-    VERSION = "0.65.0"
+    VERSION = "0.66.0"
   end
 end
