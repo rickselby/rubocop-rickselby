@@ -1,5 +1,7 @@
 ## [Unreleased]
 
+- Update `rubocop` to 1.84.0
+
 ## [0.67.0] - 2026-01-10
 
 - Update `rubocop-rspec` to 3.9
