@@ -3,5 +3,5 @@
 source "https://rubygems.org"
 gemspec
 
-gem "lefthook", "~> 2.0"
+gem "lefthook", "~> 2.1"
 gem "rake", "~> 13.3"
