@@ -1,5 +1,7 @@
 ## [Unreleased]
 
+- Update `rubocop` to 1.87
+
 ## [0.70.0] - 2026-05-25
 
 - Update `rubocop` to 1.86
