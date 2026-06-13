@@ -11,7 +11,7 @@ PATH
       rubocop-rails (~> 2.35.0)
       rubocop-rails-accessibility (~> 1.0.0)
       rubocop-rake (~> 0.7.0)
-      rubocop-rspec (>= 3.9, < 3.11)
+      rubocop-rspec (~> 3.10.0)
       rubocop-rspec_rails (~> 2.32.0)
       rubocop-sequel (~> 0.4.0)
 
@@ -163,4 +163,4 @@ DEPENDENCIES
   rubocop-rickselby!
 
 BUNDLED WITH
-  4.0.13
+  4.0.12
