@@ -1,6 +1,7 @@
 ## [Unreleased]
 
 - Update `rubocop-rspec` to 3.10
+- Don't allow qualified names to break the line limit
 
 ## [0.71.0] - 2026-06-05
 
