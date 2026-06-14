@@ -1,5 +1,7 @@
 ## [Unreleased]
 
+## [0.72.0] - 2026-06-14
+
 - Update `rubocop-rspec` to 3.10
 - Don't allow qualified names to break the line limit
 
@@ -345,7 +347,8 @@
 
 - Initial release
 
-[unreleased]: https://github.com/rickselby/rubocop-rickselby/compare/v0.71.0...HEAD
+[unreleased]: https://github.com/rickselby/rubocop-rickselby/compare/v0.72.0...HEAD
+[0.72.0]: https://github.com/rickselby/rubocop-rickselby/compare/v0.71.0...v0.72.0
 [0.71.0]: https://github.com/rickselby/rubocop-rickselby/compare/v0.70.0...v0.71.0
 [0.70.0]: https://github.com/rickselby/rubocop-rickselby/compare/v0.69.0...v0.70.0
 [0.69.0]: https://github.com/rickselby/rubocop-rickselby/compare/v0.68.0...v0.69.0
