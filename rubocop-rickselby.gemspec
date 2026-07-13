@@ -24,7 +24,7 @@ Gem::Specification.new do |spec|
   spec.add_dependency "erb_lint", "~> 0.9.0"
   spec.add_dependency "rexml", "~> 3.3"
   spec.add_dependency "rubocop", "~> 1.88.0"
-  spec.add_dependency "rubocop-capybara", ">= 2.22", "< 2.24"
+  spec.add_dependency "rubocop-capybara", "~> 3.0.0"
   spec.add_dependency "rubocop-factory_bot", "~> 2.28.0"
   spec.add_dependency "rubocop-performance", "~> 1.26.0"
   spec.add_dependency "rubocop-rails", "~> 2.35.0"
