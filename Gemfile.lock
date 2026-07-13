@@ -8,7 +8,7 @@ PATH
       rubocop-capybara (~> 3.0.0)
       rubocop-factory_bot (~> 2.28.0)
       rubocop-performance (~> 1.26.0)
-      rubocop-rails (>= 2.35, < 2.37)
+      rubocop-rails (~> 2.36.0)
       rubocop-rails-accessibility (~> 1.0.0)
       rubocop-rake (~> 0.7.0)
       rubocop-rspec (~> 3.10.0)
@@ -163,4 +163,4 @@ DEPENDENCIES
   rubocop-rickselby!
 
 BUNDLED WITH
-  4.0.16
+  4.0.14

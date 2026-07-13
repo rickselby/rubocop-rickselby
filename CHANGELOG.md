@@ -1,6 +1,7 @@
 ## [Unreleased]
 
 - Update `rubocop-capybara` to 3.0.0
+- Update `rubocop-rails` to 2.36
 
 ## [0.73.0] - 2026-06-19
 
