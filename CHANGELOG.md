@@ -1,5 +1,7 @@
 ## [Unreleased]
 
+- Update `rubocop` to 1.89
+
 ## [0.74.0] - 2026-07-13
 
 - Update `rubocop-capybara` to 3.0.0
