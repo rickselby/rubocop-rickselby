@@ -1,5 +1,7 @@
 ## [Unreleased]
 
+## [0.76.0] - 2026-08-31
+
 - Update `rubocop` to 1.90
 - Update `rubocop-rails` to 2.37
 - Update `rubocop-performance` to 1.27
@@ -364,7 +366,8 @@
 
 - Initial release
 
-[unreleased]: https://github.com/rickselby/rubocop-rickselby/compare/v0.75.0...HEAD
+[unreleased]: https://github.com/rickselby/rubocop-rickselby/compare/v0.76.0...HEAD
+[0.76.0]: https://github.com/rickselby/rubocop-rickselby/compare/v0.75.0...v0.76.0
 [0.75.0]: https://github.com/rickselby/rubocop-rickselby/compare/v0.74.0...v0.75.0
 [0.74.0]: https://github.com/rickselby/rubocop-rickselby/compare/v0.73.0...v0.74.0
 [0.73.0]: https://github.com/rickselby/rubocop-rickselby/compare/v0.72.0...v0.73.0
