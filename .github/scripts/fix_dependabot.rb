@@ -64,12 +64,13 @@ module DependabotFix
 
     def pessimistic_versions(content)
       previous_versions = {}
-      content.scan(DEPENDENCY).each do
+      content.gsub(DEPENDENCY) do |line|
         dependency = Regexp.last_match
         requirement = PESSIMISTIC.match(dependency[:requirements])
-        next unless requirement
+        next line unless requirement
 
         previous_versions[dependency[:name]] = version_parts(requirement[:version])
+        line
       end
       previous_versions
     end
