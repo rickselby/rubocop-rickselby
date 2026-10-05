@@ -52,6 +52,21 @@ The default file path is `**/*.html{+*,}.erb` - this can be changed with a `glob
 glob: "**/*.erb"
 ```
 
+## Releasing
+
+1. Run the **Prepare release** GitHub Actions workflow with the new `X.Y.Z`
+   version. It creates a pull request that updates the version and promotes
+   the Unreleased changelog entries; enter optional Markdown release notes if
+   there are no Unreleased entries.
+2. Merge that pull request, then create and push the matching `vX.Y.Z` tag.
+3. The tag-triggered release workflow verifies the metadata, runs the checks, publishes the
+   gem, and creates the GitHub Release.
+
+RubyGems trusted publishing must be configured once for the
+`rickselby/rubocop-rickselby` repository and `.github/workflows/release.yml`.
+The workflow uses the GitHub `release` environment; configure it with required
+reviewers before the first release.
+
 ## Contributing
 Bug reports and pull requests are welcome on GitHub at https://github.com/rickselby/rubocop-rickselby.
 

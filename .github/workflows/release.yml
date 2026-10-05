@@ -1,0 +1,46 @@
+---
+name: Release gem
+
+on:
+  push:
+    tags:
+      - "v*"
+
+permissions:
+  contents: write
+  id-token: write
+
+concurrency:
+  group: release-${{ github.ref_name }}
+  cancel-in-progress: false
+
+jobs:
+  release:
+    name: Publish ${{ github.ref_name }}
+    runs-on: ubuntu-latest
+    environment: release
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.3"
+          bundler-cache: true
+
+      - name: Verify release metadata
+        run: |
+          ruby -r./lib/rubocop/rickselby/version -e '
+            version = ENV.fetch("GITHUB_REF_NAME").delete_prefix("v")
+            abort "Tag v#{version} does not match gem version #{Rubocop::RickSelby::VERSION}" unless version == Rubocop::RickSelby::VERSION
+            heading = /^## \[#{Regexp.escape(version)}\](?:\s|$)/
+            abort "CHANGELOG.md has no section for #{version}" unless File.foreach("CHANGELOG.md").any? { |line| line.match?(heading) }
+          '
+
+      - name: Run checks
+        run: bundle exec rake
+
+      - name: Publish to RubyGems.org
+        uses: rubygems/release-gem@v1
