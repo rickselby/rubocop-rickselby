@@ -1,5 +1,7 @@
 ## [Unreleased]
 
+## [0.78.0] - 2026-10-05
+
 - Update `rubocop-rails` to 2.38
 
 ## [0.77.0] - 2026-09-15
@@ -372,7 +374,8 @@
 
 - Initial release
 
-[unreleased]: https://github.com/rickselby/rubocop-rickselby/compare/v0.77.0...HEAD
+[unreleased]: https://github.com/rickselby/rubocop-rickselby/compare/v0.78.0...HEAD
+[0.78.0]: https://github.com/rickselby/rubocop-rickselby/compare/v0.77.0...v0.78.0
 [0.76.0]: https://github.com/rickselby/rubocop-rickselby/compare/v0.76.0...v0.77.0
 [0.76.0]: https://github.com/rickselby/rubocop-rickselby/compare/v0.75.0...v0.76.0
 [0.75.0]: https://github.com/rickselby/rubocop-rickselby/compare/v0.74.0...v0.75.0
