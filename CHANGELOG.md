@@ -376,7 +376,7 @@
 
 [unreleased]: https://github.com/rickselby/rubocop-rickselby/compare/v0.78.0...HEAD
 [0.78.0]: https://github.com/rickselby/rubocop-rickselby/compare/v0.77.0...v0.78.0
-[0.76.0]: https://github.com/rickselby/rubocop-rickselby/compare/v0.76.0...v0.77.0
+[0.77.0]: https://github.com/rickselby/rubocop-rickselby/compare/v0.76.0...v0.77.0
 [0.76.0]: https://github.com/rickselby/rubocop-rickselby/compare/v0.75.0...v0.76.0
 [0.75.0]: https://github.com/rickselby/rubocop-rickselby/compare/v0.74.0...v0.75.0
 [0.74.0]: https://github.com/rickselby/rubocop-rickselby/compare/v0.73.0...v0.74.0
