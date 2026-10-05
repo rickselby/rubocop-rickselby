@@ -57,6 +57,7 @@ module DependabotFix
 
       add_release_notes(api, changes, updates, pr.fetch("head").fetch("sha"))
       update_pull_request(api, changes, pr)
+      # rubocop:disable-next Rails/Pluck -- This script only uses Ruby core collections.
       puts "Updated #{updates.map { |update| update[:name] }.join(", ")} on PR ##{pr.fetch("number")}"
     end
 
@@ -144,6 +145,13 @@ module DependabotFix
       puts "No matching widened gemspec requirements."
     end
 
+    def write_workflow_output(name, value)
+      output = ENV.fetch("GITHUB_OUTPUT", nil)
+      return unless output
+
+      File.open(output, "a") { |file| file.puts("#{name}=#{value}") }
+    end
+
     def add_release_notes(api, changes, updates, head)
       notes_path = ENV.fetch("RELEASE_NOTES_FILE", "CHANGELOG.md")
       notes = api.read_file(notes_path, head)
@@ -162,6 +170,7 @@ module DependabotFix
       tree = api.request("post", "git/trees", base_tree: commit.fetch("tree").fetch("sha"), tree: entries)
       commit = create_commit(api, tree, head)
       api.request("patch", "git/refs/heads/#{encoded_branch(pull_request)}", sha: commit.fetch("sha"), force: false)
+      write_workflow_output("gemspec_updated", "true")
     end
 
     def tree_entries(api, changes, old_tree)
