@@ -145,7 +145,7 @@ module DependabotFix
     end
 
     def add_release_notes(api, changes, updates, head)
-      notes_path = ENV.fetch("RELEASE_NOTES_FILE", "README.md")
+      notes_path = ENV.fetch("RELEASE_NOTES_FILE", "CHANGELOG.md")
       notes = api.read_file(notes_path, head)
       updated_notes = add_notes(notes, updates)
       changes[notes_path] = updated_notes unless updated_notes == notes
