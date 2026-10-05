@@ -55,9 +55,9 @@ glob: "**/*.erb"
 ## Releasing
 
 1. Run the **Prepare release** GitHub Actions workflow with the new `X.Y.Z`
-   version. It creates a pull request that updates the version and promotes
-   the Unreleased changelog entries; enter optional Markdown release notes if
-   there are no Unreleased entries.
+   version. It creates a pull request that updates the version, lockfile, and
+   promotes the Unreleased changelog entries; enter optional Markdown release
+   notes if there are no Unreleased entries.
 2. Merge that pull request, then in GitHub use **Releases** → **Draft a new
    release** to create and publish the matching `vX.Y.Z` tag on `main`.
 3. The tag-triggered release workflow verifies the metadata, runs the checks,

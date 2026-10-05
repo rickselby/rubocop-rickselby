@@ -6,8 +6,9 @@ module PrepareRelease
     def run
       version = ENV.fetch("RELEASE_VERSION")
       validate_version(version)
-      update_version(version)
+      previous_version = update_version(version)
       update_changelog(version)
+      update_lockfile(previous_version, version)
     end
 
     private
@@ -20,9 +21,11 @@ module PrepareRelease
 
     def update_version(version)
       source = File.read(version_path)
-      abort "Could not find VERSION constant" unless source.sub!(/VERSION = "[^"]+"/, "VERSION = \"#{version}\"")
+      match = /VERSION = "(?<version>[^"]+)"/.match(source)
+      abort "Could not find VERSION constant" unless match
 
-      File.write(version_path, source)
+      File.write(version_path, source.sub(match[0], "VERSION = \"#{version}\""))
+      match[:version]
     end
 
     def update_changelog(version)
@@ -72,12 +75,24 @@ module PrepareRelease
       changelog.sub(reference[0], replacement)
     end
 
+    def update_lockfile(previous_version, version)
+      lockfile = File.read(lockfile_path)
+      pattern = /rubocop-rickselby \(#{Regexp.escape(previous_version)}\)/
+      abort "Gemfile.lock has an unexpected rubocop-rickselby entry" unless lockfile.scan(pattern).length == 2
+
+      File.write(lockfile_path, lockfile.gsub(pattern, "rubocop-rickselby (#{version})"))
+    end
+
     def version_path
       "lib/rubocop/rickselby/version.rb"
     end
 
     def changelog_path
       "CHANGELOG.md"
+    end
+
+    def lockfile_path
+      "Gemfile.lock"
     end
   end
 end

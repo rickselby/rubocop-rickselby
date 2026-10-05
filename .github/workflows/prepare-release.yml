@@ -51,7 +51,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git switch -c "$branch"
-          git add CHANGELOG.md lib/rubocop/rickselby/version.rb
+          git add CHANGELOG.md Gemfile.lock lib/rubocop/rickselby/version.rb
           git commit -m "Release v${RELEASE_VERSION}"
           git push origin "HEAD:$branch"
           gh pr create --base main --head "$branch" --title "Release v${RELEASE_VERSION}" --body "Prepares v${RELEASE_VERSION} for release. Merge this PR, then push tag v${RELEASE_VERSION}."
