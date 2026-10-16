@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-# Run from the trusted base branch. PR gemspecs are read as text, never evaluated.
+# Run from the trusted base branch. Gemspec changes are calculated from text.
 require "base64"
 require "json"
 require "net/http"
@@ -55,7 +55,7 @@ module DependabotFix
       changes, updates = gemspec_changes(api, pr)
       return announce_no_updates if updates.empty?
 
-      add_release_notes(api, changes, updates, pr.fetch("head").fetch("sha"))
+      prepare_changes(api, changes, updates, pr)
       update_pull_request(api, changes, pr)
       # rubocop:disable-next Rails/Pluck -- This script only uses Ruby core collections.
       puts "Updated #{updates.map { |update| update[:name] }.join(", ")} on PR ##{pr.fetch("number")}"
@@ -159,6 +159,20 @@ module DependabotFix
       changes[notes_path] = updated_notes unless updated_notes == notes
     end
 
+    def prepare_changes(api, changes, updates, pull_request)
+      add_release_notes(api, changes, updates, pull_request.fetch("head").fetch("sha"))
+      add_lockfile(changes)
+    end
+
+    def add_lockfile(changes)
+      changes.each do |path, content|
+        File.write(path, content) if path.end_with?(".gemspec")
+      end
+      raise "Failed to regenerate Gemfile.lock" unless system("bundle", "lock")
+
+      changes["Gemfile.lock"] = File.read("Gemfile.lock")
+    end
+
     # rubocop:disable-next Metrics/AbcSize
     def update_pull_request(api, changes, pull_request)
       head = pull_request.fetch("head").fetch("sha")
@@ -187,7 +201,7 @@ module DependabotFix
     end
 
     def create_commit(api, tree, head)
-      api.request("post", "git/commits", message: "Fix gemspec requirements and add release notes",
+      api.request("post", "git/commits", message: "Fix gemspec requirements, release notes, and Gemfile.lock",
                   tree: tree.fetch("sha"), parents: [head])
     end
 
