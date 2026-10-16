@@ -103,8 +103,9 @@ module DependabotFix
 
     def insert_notes(content, start, finish, notes)
       newline = content.include?("\r\n") ? "\r\n" : "\n"
-      existing = content[start...finish].sub(/\A(?:[ \t]*\r?\n)+/, "")
-      content[0...start] + newline + notes.join(newline) + newline + newline + existing + content[finish..]
+      existing = content[start...finish].sub(/\A(?:[ \t]*\r?\n)+/, "").sub(/(?:[ \t]*\r?\n)+\z/, "")
+      entries = [existing, notes.join(newline)].reject(&:empty?).join(newline)
+      content[0...start] + newline + entries + newline + newline + content[finish..]
     end
 
     def github_client(repository)
