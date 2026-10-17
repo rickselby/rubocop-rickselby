@@ -35,7 +35,7 @@ jobs:
         run: cp .github/scripts/fix_dependabot.rb "${RUNNER_TEMP}/fix_dependabot.rb"
 
       - name: Check out Dependabot branch
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         with:
           ref: ${{ github.event.pull_request.head.ref }}
 
