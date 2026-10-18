@@ -1,5 +1,7 @@
 ## [Unreleased]
 
+## [0.79.0] - 2026-10-18
+
 - Update `rubocop` to 1.92
 - Update `rubocop-rspec_rails` to 2.33
 
@@ -377,7 +379,8 @@
 
 - Initial release
 
-[unreleased]: https://github.com/rickselby/rubocop-rickselby/compare/v0.78.0...HEAD
+[unreleased]: https://github.com/rickselby/rubocop-rickselby/compare/v0.79.0...HEAD
+[0.79.0]: https://github.com/rickselby/rubocop-rickselby/compare/v0.78.0...v0.79.0
 [0.78.0]: https://github.com/rickselby/rubocop-rickselby/compare/v0.77.0...v0.78.0
 [0.77.0]: https://github.com/rickselby/rubocop-rickselby/compare/v0.76.0...v0.77.0
 [0.76.0]: https://github.com/rickselby/rubocop-rickselby/compare/v0.75.0...v0.76.0
